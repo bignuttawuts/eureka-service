@@ -1,0 +1,5 @@
+spring:
+  profiles: uat
+eureka:
+  instance:
+    hostname: localhost

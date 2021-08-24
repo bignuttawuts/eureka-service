@@ -4,5 +4,7 @@ services:
   app:
     container_name: "eureka-service"
     image: "bignuttawuts/eureka-service:latest"
+    environment:
+      - 'SPRING_PROFILE=uat'
     ports:
       - "8888:8888"
